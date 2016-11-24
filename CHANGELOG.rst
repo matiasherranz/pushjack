@@ -3,11 +3,6 @@
 Changelog
 =========
 
-v1.3.1 (2016-11-24)
--------------------
-
-- Fixed deprecated urls for the Apple APNs and documentation.
-
 v1.2.1 (2015-12-14)
 -------------------
 
