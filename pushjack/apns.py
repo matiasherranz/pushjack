@@ -16,8 +16,8 @@ failed tokens.
 
 For more details regarding Apple's APNS documentation, consult the following:
 
-- `Apple Push Notification Service <http://goo.gl/wFVr2S>`_
-- `Provider Communication with APNS <http://goo.gl/qMfByr>`_
+- `Apple Push Notification Service <http://apple.co/2gEDwoW>`_
+- `Provider Communication with APNS <http://apple.co/2fvFaaG>`_
 """
 
 from binascii import hexlify, unhexlify
@@ -52,9 +52,8 @@ __all__ = (
 
 log = logging.getLogger(__name__)
 
-
-APNS_HOST = 'gateway.push.apple.com'
-APNS_SANDBOX_HOST = 'gateway.sandbox.push.apple.com'
+APNS_HOST = 'api.push.apple.com'
+APNS_SANDBOX_HOST = 'api.development.push.apple.com'
 APNS_PORT = 2195
 APNS_FEEDBACK_HOST = 'feedback.push.apple.com'
 APNS_FEEDBACK_SANDBOX_HOST = 'feedback.sandbox.push.apple.com'
