@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
-"""Define project metadata
+"""
+Define project metadata
 """
 
-# -*- coding: utf-8 -*-
-"""Define project metadata
-"""
 
 __package_name__ = 'pushjack'
 __description__ = 'Push notifications for APNS (iOS) and GCM (Android).'
